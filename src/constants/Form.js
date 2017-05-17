@@ -23,7 +23,8 @@ module.exports = {
     fields: [
       "context",
       "value",
-      "comment"
+      "comment",
+      "references"
     ]
   }
 };

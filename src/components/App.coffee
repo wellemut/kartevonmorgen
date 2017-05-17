@@ -320,6 +320,7 @@ Main = React.createClass
                       context : data.context
                       value   : data.value
                       comment : data.comment
+                      references: data.references
               when V.WAIT
                 React.createElement Message,
                   iconClass: "fa fa-spinner fa-pulse"

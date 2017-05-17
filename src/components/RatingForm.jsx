@@ -59,6 +59,10 @@ class RatingForm extends Component {
           <Field name="comment" className="pure-input-1" component="textarea" placeholder="Kommentar"  />
           <Field name="comment" component={errorMessage} />
         </fieldset>
+        <fieldset>
+          <Field name="references" className="pure-input-1" component="text" placeholder="Quelle"  />
+          <Field name="references" component={errorMessage} />
+        </fieldset>
       </div>
     </form>)
   }

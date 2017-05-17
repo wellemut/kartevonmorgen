@@ -117,6 +117,7 @@ const Rating = (rating) =>
     <ul className="comments">
       {(rating.comments || []).filter(c => typeof c !== "undefined" && c !== null).map(c => <li key={c.id}>{Comment(c)}</li>)}
     </ul>
+    <span className="references">Quelle: {rating.references}</span>
   </div>
 
 const Comment = (comment) =>
