@@ -31,7 +31,7 @@ module.exports = pure React.createClass
         p null
         "Was will die " a href: "http://bildungsagenten.org/kartevonmorgen/", onClick: (-> onClick V.JOIN), "Karte von morgen?"
         "- Was sind die " a href: "http://bildungsagenten.org/kartevonmorgen/2/", onClick: (-> onClick V.JOIN), "Positivfaktoren?"
-        "- Was sind " a href: "http://bildungsagenten.org/kartevonmorgen/3/", onClick: (-> onClick V.JOIN), "Regionalpiloten bzw.  Themenpiloten? Wie nutze ich Widgets?"
+        "- Was sind " a href: "http://bildungsagenten.org/kartevonmorgen/3/", onClick: (-> onClick V.JOIN), "Regional- bzw.  Themenpiloten? Wie nutze ich Widgets?"
         "- Wie kann ich " a href: "http://bildungsagenten.org/kartevonmorgen/4/", onClick: (-> onClick V.JOIN), "mitmachen oder die Karte von morgen unterstützen?"
      img style: {float: "left"}, src: require "../img/Team an Tisch.jpg"
         
